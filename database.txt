@@ -1,0 +1,38 @@
+usertable(利用者)
+1.id(aut)
+2.name(str)
+3.mail(str)
+4.password(str)
+5.create_day(int aut)
+
+categori(カテゴリ)
+1.id(aut)
+2.name(str)
+3.status(boolian)
+4.deleteflag(boolian)
+
+merchandise(商品)
+1.id(aut)
+2.name(str)
+3.categori_id(int)
+4.imagr(str)
+5.infomation
+6.price(int)
+7.rest (int)（在庫）
+8.status(boorian defoluto=0)
+9.create_day(int aut)
+
+orders (注文情報)
+1.id
+2.user_id
+3.bye_day
+4.fum_price
+5.status
+
+OrderDetails(注文詳細)
+1.id
+2.order_id
+3.merchandise_id
+4.orders
+5.Subtotal
+
